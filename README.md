@@ -1,4 +1,4 @@
-## Scripts de configuration automatisée d'ESXi
+## Scripts d'installation automatisée du client TSM
 ### Prerequis
 
 - fabric
