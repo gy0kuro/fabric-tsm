@@ -1,6 +1,6 @@
 #!/usr/bin/python
 ##
-# Script installation client / ddc 11032011 / ddm 09022017.1
+# Script installation client / ddc tgr.11032011 / ddm tgr.09022017.1
 ##
 # Fonctions disponibles :
 #   * installation client TSM v7 et tests operationnels
@@ -41,8 +41,8 @@ from email.MIMEText import MIMEText
 
 # Parametres mail
 
-#fromaddr = "tsmclientop@ac-amiens.fr"
-#toaddr = "systeme@ac-amiens.fr"
+#fromaddr = "tsmclientop@yourcompany.com"
+#toaddr = "system@yourcompany.com"
 #msg = MIMEMultipart()
 #msg['From'] = fromaddr
 #msg['To'] = toaddr
@@ -51,7 +51,7 @@ from email.MIMEText import MIMEText
 #body = env.roledefs['newnode']
 #msg.attach(MIMEText(body, 'plain'))
 #
-#server = smtplib.SMTP('smtp.ac-amiens.fr', 587)
+#server = smtplib.SMTP('smtp.yourcompany.com', 587)
 #server.starttls()
 #server.login(fromaddr, "YOUR PASSWORD")
 #text = msg.as_string()
@@ -66,8 +66,7 @@ env.abort_on_prompts=True
 
 # LISTE DU OU DES NOEUDS A INSTALLER - IP, shortname, FQDN...
 
-# 'roundcube2','ldap-srv1','ldap-srv2'
-env.roledefs['newnode'] = ['collectelog.ac-amiens.fr']
+env.roledefs['newnode'] = ['server.yourcompany.com']
 
 # INSTALL CLIENT 7
 
