@@ -83,9 +83,9 @@ def tsm_client_install():
             # VARIABLES A PERSONNALISER
             #
             # path paquets RHEL
-            rpms_path = '/home/tom/.bin/DSIN-AMS/TSM/rpms/'
+            rpms_path = '/home/tonuser/pathto/rpms/'
             # path paquets Debian
-            debs_path = '/home/tom/.bin/DSIN-AMS/TSM/deb/'
+            debs_path = '/home/tonuser/pathto/deb/'
             # votre path temporaire
             tmp_path = '/tmp/tsm/'
             # path arbo client TSM si different de install de base
