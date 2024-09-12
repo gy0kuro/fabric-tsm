@@ -1,7 +1,6 @@
 #!/usr/bin/python
 ##
 # Script installation client / ddc 11032011 / ddm 09022017.1
-# thomas.gratton@ac-amiens.fr
 ##
 # Fonctions disponibles :
 #   * installation client TSM v7 et tests operationnels
@@ -93,14 +92,14 @@ def tsm_client_install():
             # path arbo client TSM si different de install de base
             tsmclient_path = '/opt/tivoli/tsm/client/'
             # adresse serveur TSM
-            tsmsrvaddress = 'tsm.in.ac-amiens.fr'
+            tsmsrvaddress = 'IP'
             # utilisateur TSM pour enregistrer le noeud
-            tsmuser = 'admin'
+            tsmuser = 'USER'
             # TODOLIST : trouver la librairie pour crypter et decrypter les mdp
             # password utilisateur TSM
-            tsmsrvpwd = 'tsm5'
+            tsmsrvpwd = 'PASSWORD'
             # password noeud
-            tsmclipwd = 'tsma42bluz'
+            tsmclipwd = 'NODE PASSWORD'
             #
 
             if fabric.contrib.files.exists(''+tsmclient_path+'ba/bin/dsm.sys'):

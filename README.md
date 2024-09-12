@@ -2,8 +2,7 @@
 ### Prerequis
 
 - fabric
-- ssh
-- clefs déployées sur les clients
+- SSH & clefs déployées sur les clients
 
 ### Fonctionnement
 
